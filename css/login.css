@@ -1,0 +1,27 @@
+ 
+.forgot {
+    text-decoration: none;
+    font-size: 0.875em;
+}
+
+#login-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#login-button {
+    width: 70px;
+}
+
+.no-account {
+    font-size: 0.875em;
+}
+
+.create-account {
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    background-color: #0e4291;
+    border-color: #0e4291;
+}
