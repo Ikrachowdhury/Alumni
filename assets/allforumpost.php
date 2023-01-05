@@ -6,7 +6,7 @@ header('location:../assets/login.php');
 }
  $user_id=$_SESSION['user_id'];  
   
- ?>jhjhj
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
