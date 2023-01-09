@@ -69,7 +69,7 @@ function forumcardbody($post_id,$user_id,$puser_id,$user_image,$user_name,$post_
                     <?php }?>
                     </div>
                      <div class="media-body">
-                                <h2 class="fw-bolder"><?php echo $post_tittle; ?></a></h6>
+                                <a  href="../student/userfeed.php?  selectedpost_id=<?php echo $post_id; ?>  " class="fw-bolder"><?php echo $post_tittle; ?></a></h6>
                                 <p class="text-secondary">
                                     <?php echo  $post_caption; ?>
                                 </p>
