@@ -58,7 +58,7 @@ $user_type=$_SESSION['user_type'];
           </li>
           <li class="nav-item pe-2">
             <!-- <img src="../images//user.png" class="img" alt="logo"> -->
-            <a href="../assets/allforumpost.php" class="link">
+            <a href="../student/allforumpost.php" class="link">
               <span><b>Forum</b></span>
             </a>
         </li>
@@ -70,7 +70,7 @@ $user_type=$_SESSION['user_type'];
           </li>
           <li class="nav-item pe-2">
             <!-- <img src="../images//user.png" class="joinedimg" alt="logo" /> -->
-            <a href="#" class="link">
+            <a href="../admin/adminmanagealumni.php" class="link">
               <span><b>Allumni</b></span>
             </a>
           </li>
@@ -87,7 +87,7 @@ $user_type=$_SESSION['user_type'];
           </li>
           <li class="nav-item pe-2">
             <!-- <img src="../images//user.png" class="img" alt="logo"> -->
-            <a href="../assets/allforumpost.php" class="link">
+            <a href="../student/allforumpost.php" class="link">
               <span><b>Forum</b></span>
             </a>
         </li>
@@ -99,7 +99,7 @@ $user_type=$_SESSION['user_type'];
           </li>
           <li class="nav-item pe-2">
             <!-- <img src="../images//user.png" class="joinedimg" alt="logo" /> -->
-            <a href="#" class="link">
+            <a href="../admin/adminmanagealumni.php" class="link">
               <span><b>All Alumni</b></span>
             </a>
           </li>
@@ -115,7 +115,7 @@ $user_type=$_SESSION['user_type'];
           </li>
           <li class="nav-item pe-2">
             <!-- <img src="../images//user.png" class="img" alt="logo"> -->
-            <a href="../assets/allforumpost.php" class="link">
+            <a href="../student/allforumpost.php" class="link">
               <span><b>Forum</b></span>
             </a>
         </li>
@@ -127,7 +127,7 @@ $user_type=$_SESSION['user_type'];
           </li>
           <li class="nav-item pe-2">
             <!-- <img src="../images//user.png" class="joinedimg" alt="logo" /> -->
-            <a href="../admin/adminmanageapplicant.php" class="link">
+            <a href="../admin/adminmanagealumni.php" class="link">
               <span><b>Manage Allumni </b></span>
             </a>
           </li>
@@ -156,7 +156,8 @@ $user_type=$_SESSION['user_type'];
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
               <li>
-                <a class="dropdown-item" href="../student/userprofile.php" id="profilebutton">My profile</a>
+              <a class="dropdown-item" href="../student/userprofile.php" id="profilebutton">My profile</a> 
+                
               </li>
               <li>
                 <a class="dropdown-item" href="../assets/logout.php">Logout</a>

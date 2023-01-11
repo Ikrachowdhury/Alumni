@@ -9,8 +9,7 @@ $user_id=$_SESSION['user_id'];
 $user_type=$_SESSION['user_type'];
 $user_dept=$_SESSION['user_dept'];
 $user_batch=$_SESSION['user_batch'];
-$user_image=$_SESSION['user_image'];
-$user_session=$_SESSION['session']; 
+$user_image=$_SESSION['user_image']; 
 
 ?> 
 <!DOCTYPE html>
